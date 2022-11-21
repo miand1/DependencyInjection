@@ -12,7 +12,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-
+@ComponentScan(basePackages = "org.example")
 public class ProjectConfig {
     @Bean
     public CommentNotificationProxy emailNotification(){
@@ -30,13 +30,13 @@ public class ProjectConfig {
         return new DBCommentRepository();
     }
 
-    @Bean
+   /* @Bean
     public CommentService commentService(@Qualifier("pushNotification") CommentNotificationProxy c,
                                          CommentRepository commentRepository){
         CommentService commentService = new CommentService();
         commentService.setCommentNotificationProxy(c);
         commentService.setCommentRepository(commentRepository);
         return commentService;
-    }
+    }*/
 
 }

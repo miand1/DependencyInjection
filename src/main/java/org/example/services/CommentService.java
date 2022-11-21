@@ -8,20 +8,18 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class CommentService {
-    private CommentRepository commentRepository;
-    private CommentNotificationProxy commentNotificationProxy;
-
-    public CommentService() {
-    }
+    private final CommentRepository commentRepository;
+    private final CommentNotificationProxy commentNotificationProxy;
 
 
-    public void setCommentRepository(CommentRepository commentRepository) {
+
+    public CommentService(CommentRepository commentRepository, CommentNotificationProxy pushNotification) {
+        System.out.println("Creating Service");
         this.commentRepository = commentRepository;
+        this.commentNotificationProxy = pushNotification;
     }
 
-    public void setCommentNotificationProxy(CommentNotificationProxy commentNotificationProxy) {
-        this.commentNotificationProxy = commentNotificationProxy;
-    }
+
 
     public void publishComment(Comment comment){
         commentRepository.storeComment(comment);
