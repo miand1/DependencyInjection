@@ -1,6 +1,6 @@
 package org.example.main;
 
-import org.example.ProjectConfig;
+import org.example.QualifierConfig.ProjectConfig;
 import org.example.models.Comment;
 import org.example.services.CommentService;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
