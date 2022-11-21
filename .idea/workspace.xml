@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14d7631c-695a-4f89-a38f-69aae478e134" name="Changes" comment="Finishes Single Class Dependency Injection">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/proxies/PushNotificatationProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/QualifierConfig/ProjectConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/proxies/EmailCommentNotificationProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/proxies/EmailCommentNotificationProxy.java" afterDir="false" />
+    <list default="true" id="14d7631c-695a-4f89-a38f-69aae478e134" name="Changes" comment="Adds Multiple Beans Using attribute in constructor">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/QualifierConfig/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/QualifierConfig/ProjectConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/services/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/services/CommentService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="multipleBeans" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -110,7 +106,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669035222399</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adds Multiple Beans with Qualifier in ProjectConfig">
+      <created>1669048592941</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1669048592941</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adds Multiple Beans Using attribute in constructor">
+      <created>1669048869077</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669048869077</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,6 +136,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Finishes Single Class Dependency Injection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finishes Single Class Dependency Injection" />
+    <MESSAGE value="Adds Multiple Beans with Qualifier in ProjectConfig" />
+    <MESSAGE value="Adds Multiple Beans Using attribute in constructor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adds Multiple Beans Using attribute in constructor" />
   </component>
 </project>
